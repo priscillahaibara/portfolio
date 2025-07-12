@@ -1,0 +1,45 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: $font-weight-default;
+  line-height: 1;
+  color: $color-grey-dark-3;
+}
+
+.h1,
+.h2 {
+  color: $color-grey-dark-4;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-small;
+  letter-spacing: -0.5px;
+}
+
+.h1 {
+  font-size: $font-size-h1;
+}
+
+.h2 {
+  font-size: $font-size-h2;
+}
+
+.h3 {
+  font-size: $font-size-h3;
+  font-weight: $font-weight-semi-bold;
+  color: $color-grey-dark-3;
+}
+
+.h4 {
+  font-size: $font-size-h4;
+  font-weight: $font-weight-medium;
+  color: $color-grey-dark-4;
+}
+
+.p {
+  font-size: $font-size-p;
+  line-height: $line-height-big;
+}
+
+.small {
+  font-size: $font-size-small;
+  line-height: $line-height-big;
+}
+

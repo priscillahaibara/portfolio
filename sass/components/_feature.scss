@@ -1,0 +1,110 @@
+.feature {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: $spacing-small;
+
+  &__container {
+    box-shadow: 0 2.4rem 4.8rem rgba($color-black, 0.1);
+    border-radius: $border-radius-medium;
+    overflow: hidden;
+    transition: all 0.3s;
+    background-color: rgba($color-white, 0.8);
+
+    &-img {
+      position: relative;
+    }
+
+    &:hover {
+      transform: translateY(-1rem);
+      box-shadow: 0 3.6rem 6.4rem rgba($color-black, 0.1);
+
+      img {
+        filter: brightness(0.6);
+      }
+
+      .feature__icon--code,
+      .feature__icon--open,
+      .feature__icon-text {
+        opacity: 1;
+      }
+    }
+
+    &:active {
+      transform: translateY(-0.5rem);
+      box-shadow: 0 1.2rem 2.4rem rgba($color-black, 0.13);
+    }
+  }
+
+  &__img {
+    width: 100%;
+    transition: all 0.3s;
+  }
+
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    color: $color-white;
+    --ionicon-stroke-width: 4rem;
+
+    &--code,
+    &--open {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: all 0.3s ease;
+      background-color: rgba($color-black, 0.85);
+      border-radius: $border-radius-medium;
+      padding: 1rem;
+    }
+
+    &--code {
+      left: 33%;
+    }
+
+    &--open {
+      left: 66%;
+    }
+
+    &-text {
+      position: absolute;
+      top: 66%;
+      transform: translate(-50%, -50%);
+      color: $color-white;
+      opacity: 0;
+      transition: all 0.3s ease;
+
+      &--left {
+        left: 33%;
+      }
+
+      &--right {
+        left: 66%;
+      }
+    }
+  }
+
+  &__content {
+    padding: 3.2rem;
+  }
+
+  &__tags {
+    display: flex;
+    gap: 0.6rem;
+    margin-bottom: 1.2rem;
+    flex-wrap: wrap;
+  }
+
+  &__tag {
+    display: inline-block;
+    background-color: $color-primary-dark-3;
+    color: $color-grey-dark-3;
+    font-size: 1.2rem;
+    font-weight: $font-weight-medium;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.4rem 0.8rem;
+    border-radius: 100px;
+  }
+}

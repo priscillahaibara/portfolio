@@ -1,0 +1,45 @@
+//GRID
+
+.u-row-gap--big {
+  row-gap: 9.6rem;
+}
+
+.u-column-gap--big {
+  column-gap: 8rem;
+}
+
+.u-column-gap--medium {
+  column-gap: 4.8rem;
+}
+
+.u-column-gap--small {
+  column-gap: 3.2rem;
+}
+
+//MARGIN
+
+.u-margin-bottom--small {
+  margin-bottom: 1.6rem;
+}
+
+//PADDING
+
+.u-padding-top--medium {
+  padding-top: 3.2rem;
+}
+
+//DESIGN
+
+.u-border-top--thin {
+  border-top: 1px solid $color-grey-light-1;
+}
+
+//TEXT
+
+.u-title--uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: underline $color-primary-dark-3 3px;
+}
+
+

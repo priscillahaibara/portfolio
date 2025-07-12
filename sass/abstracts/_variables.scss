@@ -1,0 +1,77 @@
+/* -- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+//COLORS
+
+$color-primary-light-1: #fffef6;
+$color-primary: #fffdf0;
+$color-primary-dark-1: #fff2c2; 
+$color-primary-dark-2: #ffec99; 
+$color-primary-dark-3: #e6d48a; 
+$color-primary-dark-4: #ffe066; 
+
+$color-secondary: #eff3ea;
+$color-secondary-dark-1: #d7dbd3;
+$color-secondary-dark-2: #d9dfc6;
+$color-secondary-dark-3: #c3c9b2;
+
+$color-white: #fff;
+
+$color-grey-light-1: #bbb;
+
+$color-grey-dark-1: #777;
+$color-grey-dark-2: #555;
+$color-grey-dark-3: #444;
+$color-grey-dark-4: #222;
+
+$color-black: #000;
+
+
+//FONT SIZE
+$font-size-h1: 4.4rem;
+$font-size-h2: 3rem;
+$font-size-h3: 2.4rem;
+$font-size-h4: 2rem;
+$font-size-p: 1.8rem;
+$font-size-small: 1.6rem;
+
+//FONT WEIGHT
+$font-weight-default: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+//LINE HEIGHT
+$line-height-small: 1.1;
+$line-height-big: 1.7;
+
+//BORDER RADIUS
+$border-radius-small: 4px;
+$border-radius-medium: 10px;
+
+//SPACING
+$spacing-smallest: 2.4rem;
+$spacing-smaller: 3.2rem;
+$spacing-small: 4.8rem;
+$spacing-medium: 6.4rem;
+$spacing-big: 8rem;
+$spacing-bigger: 9.6rem;
+$spacing-biggest: 12.8rem;
+
+//COLUMN GAP
+$row-gap--big: 9.6rem;
+  
+  .column-gap--big {
+    column-gap: 8rem;
+  }
+  
+  .column-gap--medium {
+    column-gap: 4.8rem;
+  }
+  
+  .column-gap--small {
+    column-gap: 3.2rem;
+  }

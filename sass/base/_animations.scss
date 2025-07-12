@@ -1,0 +1,59 @@
+/* ======== ANIMATION KEYFRAMES ======== */
+.hidden--right {
+    opacity: 0;
+    transform: translateX(50px);  /* Elemento começa fora da tela */
+}
+
+.visible--right {
+    opacity: 1;
+    animation: animation--moveInRight 1s ease-out forwards;
+}
+
+.hidden--left {
+    opacity: 0;
+    transform: translateX(-50px);  /* Elemento começa fora da tela */
+}
+
+.visible--left {
+    opacity: 1;
+    animation: animation--moveInLeft 1s ease-out forwards;
+}
+
+/* ======== ANIMATION KEYFRAMES ======== */
+
+@keyframes animation--moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes animation--moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes animation--moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

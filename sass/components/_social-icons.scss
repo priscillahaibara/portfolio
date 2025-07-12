@@ -1,0 +1,20 @@
+.social-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 1.2rem;
+
+  &__icon {
+    height: 4.4rem;
+    width: 4.4rem;
+    color: $color-grey-dark-3;
+    transition: all 0.3s;
+
+    &:hover,
+    &:active {
+      color: $color-grey-dark-4;
+      transform: scale(1.1);
+    }
+  }
+}

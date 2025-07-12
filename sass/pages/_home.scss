@@ -1,0 +1,410 @@
+/* ========== SECTION HERO ========== */
+
+.hero {
+  padding-top: $spacing-bigger;
+  padding-bottom: $spacing-bigger;
+  background-color: $color-primary;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: $spacing-big;
+    row-gap: $spacing-bigger;
+  }
+
+  &__title {
+    margin-bottom: $spacing-smallest;
+  }
+
+  &__text {
+    margin-bottom: $spacing-smaller;
+  }
+
+  &__container-social-links {
+    animation: animation--moveInBottom 1s ease-out;
+  }
+
+  &__img {
+    width: 100%;
+    animation: animation--moveInRight 1s ease-out;
+  }
+}
+
+/* ========== SECTION SKILLS ========== */
+
+.skills {
+  padding-top: $spacing-bigger;
+  padding-bottom: $spacing-biggest;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: $spacing-medium;
+    row-gap: $spacing-big;
+  }
+
+  &__title {
+    margin-bottom: $spacing-medium;
+  }
+
+  &__subtitle {
+    margin-bottom: $spacing-smaller;
+  }
+}
+
+.chart {
+  &__container {
+    width: 100%;
+    background-color: $color-secondary-dark-2;
+    border-radius: $border-radius-medium;
+    padding: 2.4rem 3.2rem 3rem 3.2rem;
+  }
+
+  &__title {
+    font-weight: $font-weight-semi-bold;
+    letter-spacing: 1px;
+
+    &:not(:first-child) {
+      margin-top: 1rem;
+    }
+  }
+
+  &__bar {
+    height: 2rem;
+    background-color: $color-primary-light-1;
+    border-radius: $border-radius-small;
+
+    &-fill {
+      height: 100%;
+      background-color: $color-primary-dark-4;
+      border-radius: $border-radius-small;
+    }
+  }
+}
+
+.html {
+  width: 90%;
+}
+
+.javascript {
+  width: 60%;
+}
+
+.sass {
+  width: 50%;
+}
+
+.react {
+  width: 30%;
+}
+
+.react-native {
+  width: 15%;
+}
+
+.git {
+  width: 50%;
+}
+
+.figma {
+  width: 50%;
+}
+
+.java {
+  width: 15%;
+}
+
+.c {
+  width: 15%;
+}
+
+.c-sharp {
+  width: 15%;
+}
+
+.python {
+  width: 25%;
+}
+
+/* ========== SECTION PROJECTS ========== */
+
+.projects {
+  padding-top: $spacing-bigger;
+  padding-bottom: $spacing-biggest;
+  position: relative;
+  z-index: 1;
+
+  &__title {
+    text-align: center;
+    margin-bottom: $spacing-medium;
+  }
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  
+  &__content {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+}
+
+/* ========== SECTION ABOUT ========== */
+
+.about {
+  padding-top: $spacing-big;
+  padding-bottom: $spacing-smaller;
+  background-color: $color-secondary;
+
+  &__title {
+    margin-bottom: $spacing-smaller;
+  }
+
+  &__text {
+    margin-bottom: $spacing-small;
+  }
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: $spacing-small;
+
+  &__title {
+    margin-bottom: $spacing-smallest;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-smaller;
+  }
+
+  &__subtitle {
+    margin-bottom: 0.8rem;
+  }
+
+  &__box {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    column-gap: 1rem;
+    align-items: stretch;
+  }
+
+  &__box p {
+    min-height: 8rem;
+  }
+
+  &__box p:nth-child(2) {
+    justify-self: end;
+  }
+}
+
+/* ========== MOBILE ========== */
+
+
+/* ========== MEDIA QUERIES ========== */
+
+@media (max-width: 75em) {
+  //Bellow 1200px
+  html {
+    // 9px / 16 px
+    font-size: 56.25%;
+  }
+
+  .h1 {
+    font-size: $font-size-h1 * 0.9;
+  }
+
+  .hero__container {
+    column-gap: $spacing-medium;
+  }
+
+  .skills__subtitle {
+    margin-bottom: $spacing-smallest;
+  }
+
+  .feature {
+    column-gap: $spacing-smaller;
+
+    &__content {
+      padding: $spacing-smallest;
+    }
+  }
+}
+
+@media (max-width: 59em) {
+  //Bellow 944 px
+  html {
+    font-size: 50%;
+  }
+
+  .h1 {
+    font-size: $font-size-h1 * 0.8;
+    line-height: 4rem;
+  }
+
+  .skills__container {
+    column-gap: $spacing-small;
+  }
+
+  .feature__content {
+    padding: 1.6rem;
+  }
+}
+
+@media (max-width: 47em) {
+  //Bellow 752px
+
+  .hero {
+    padding-top: 11rem;
+
+    &__title {
+      margin-bottom: 1.6rem;
+    }
+
+    &__text {
+      margin-bottom: 2.4rem;
+    }
+
+    &__container {
+      grid-template-columns: 1fr;
+      padding: 0 $spacing-medium;
+      row-gap: $spacing-small;
+
+      &-text,
+      &-img {
+        text-align: center;
+      }
+
+      &-social-links {
+        display: flex;
+        justify-content: center;
+        gap: 3.5rem;
+      }
+    }
+
+    &__img {
+      width: 70%;
+    }
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .chart__container {
+    padding: 2.8rem 3.6rem 3.4rem 3.6rem;
+  }
+
+  .skills {
+    padding-bottom: $spacing-bigger;
+
+    &__container {
+      column-gap: $spacing-smaller;
+      row-gap: $spacing-medium;
+    }
+
+    &__title {
+      margin-bottom: $spacing-medium;
+    }
+
+    &__subtitle {
+      margin-bottom: $spacing-smaller;
+    }
+  }
+
+  .feature {
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    &__container {
+      width: 50%;
+    }
+
+    &__container:not(:last-child) {
+      margin-bottom: $spacing-small;
+    }
+
+    &__content {
+      padding: 3.2rem;
+    }
+  }
+
+  .timeline {
+    grid-template-columns: 1fr;
+
+    &__box p {
+      min-height: 4rem;
+    }
+
+    &__title--work {
+      margin-top: 6rem;
+    }
+  }
+
+  .remove-border.u-border-top--thin {
+    border-top: none;
+  }
+}
+
+@media (max-width: 37em) {
+  //Bellow 592px
+
+  .hero__img {
+    width: 85%;
+  }
+
+  .skills {
+    &__container {
+      grid-template-columns: 1fr;
+    }
+
+    &--development {
+      grid-row: 5 / 6;
+    }
+
+    &--other-languages {
+      grid-row: 7 / 8;
+    }
+  }
+
+  .projects {
+    padding-top: $spacing-big;
+    padding-bottom: $spacing-bigger;
+  }
+
+  .feature__container {
+    width: 65%;
+  }
+}
+
+@media (max-width: 28em) {
+//Bellow 448px
+
+.h1 {
+  font-size: $font-size-h1 * 0.65;
+}
+
+.hero__img {
+  width: 95%;
+}
+
+.feature__container {
+  width: 85%;
+}
+
+}
