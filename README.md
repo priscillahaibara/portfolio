@@ -32,7 +32,7 @@ I plan to deploy the final version on Netlify once the refactor is complete.
 
 ## 🧾 Original Version
 
-You can still view the original version in the [legacy](#) branch.  
+You can still view the original version in the [legacy](https://github.com/priscillahaibara/portfolio/tree/legacy) branch.  
 That version uses SCSS and follows a modular structure.
 
 ## 🙋‍♀️ About Me
