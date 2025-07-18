@@ -35,10 +35,86 @@
         </ul>
       </nav>
 
-      <button class="header__toggle" id="header-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="header-nav">
+      <button
+        class="header__toggle"
+        id="header-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="header-nav"
+      >
         <i class="ri-menu-line header__toggle--burger"></i>
         <i class="ri-close-line header__toggle--close"></i>
       </button>
     </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__content">
+            <h1 class="hero__content-title h1">
+              Hi, my name is Priscilla. <br />
+              I am a Software Engineer student.
+            </h1>
+            <p class="hero__content-description p">
+              Passionate about front-end technologies (web and mobile) with a
+              background in medicine. Aiming to become a fullstack developer.
+              Permanent resident in Canada.
+            </p>
+
+            <div class="hero__container-social-links">
+              <ul class="social-links">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/priscillahaibara/"
+                    target="_blank"
+                    aria-label="LinkedIn Profile"
+                    title="LinkedIn Profile"
+                  >
+                    <ion-icon
+                      class="social-links__icon"
+                      name="logo-linkedin"
+                    ></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/priscillahaibara"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Github Profile"
+                    title="Github Profile"
+                  >
+                    <ion-icon
+                      class="social-links__icon"
+                      name="logo-github"
+                    ></ion-icon>
+                  </a>
+                </li>
+              </ul>
+              <a class="button button--disabled" href="#" aria-disabled="true">Resume (Coming soon)</a>
+            </div>
+          </div>
+
+          <div class="hero__container-img">
+            <img
+              class="hero__img"
+              alt="Illustration of a woman coding on a computer"
+              src="./img/coding.png"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
