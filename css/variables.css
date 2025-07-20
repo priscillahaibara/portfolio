@@ -1,0 +1,87 @@
+/* -- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+:root {
+  /* Primary palette */
+  --color-primary-100: #fffef6;
+  --color-primary-200: #fffdf0;
+  --color-primary-300: #fff2c2;
+  --color-primary-400: #ffec99;
+  --color-primary-500: #ffe066;
+  --color-primary-600: #e6d48a;
+
+  /* Secondary palette */
+  --color-secondary-100: #eff3ea;
+  --color-secondary-200: #d7dbd3;
+  --color-secondary-300: #d9dfc6; /* header, footer, charts */
+  --color-secondary-400: #c3c9b2;
+
+  /* Neutrals */
+  --color-white: #ffffff;
+  --color-grey-200: #bbb;
+  --color-grey-400: #777;
+  --color-grey-600: #555;
+  --color-grey-700: #444;
+  --color-grey-900: #222;
+  --color-black: #000000;
+
+  /* Semantic colors */
+  --color-bg: var(--color-primary-200); /* Main background (hero) */
+  --color-bg-alt: var(--color-secondary-100); /* Alternative background (section) */
+  --color-header-bg: var(--color-secondary-300); /* Header background */
+  --color-footer-bg: var(--color-secondary-300); /* Footer background */
+  --color-chart-bg: var(--color-secondary-300); /* Chart background */
+  --color-chart-bar-fill: var(--color-primary-500); /* Chart bar fill */
+  --color-button-bg: var(--color-primary-400); /* Button background */
+  --color-text-primary: var(--color-grey-900); /* Main text (titles) */
+  --color-text-secondary: var(--color-grey-700); /* Text description, links */
+
+  /* Font weight */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  /* Typography */
+  --font-size-3xl: 4.4rem; /* Main title */
+  --font-size-2xl: 3rem; /* Section titles */
+  --font-size-xl: 2.4rem; /* Smaller titles */
+  --font-size-lg: 2rem; /* Subtitles */
+  --font-size-md: 1.8rem; /* Paragraphs */
+  --font-size-sm: 1.6rem; /* Labels, details */
+  --font-size-xs: 1.4rem;
+  --font-size-base: 1rem; /* 10px */
+
+  /* Line height */
+  --line-height-tight: 1.1;
+  --line-height-relaxed: 1.7;
+
+  /* Spacing */
+  --space-2: 0.2rem;
+  --space-4: 0.4rem;
+  --space-8: 0.8rem;
+  --space-12: 1.2rem;
+  --space-16: 1.6rem;
+  --space-24: 2.4rem;
+  --space-32: 3.2rem;
+  --space-48: 4.8rem;
+  --space-64: 6.4rem;
+  --space-80: 8rem;
+  --space-96: 9.6rem;
+  --space-128: 12.8rem;
+
+  /* Column gap */
+  --column-gap-sm: 3.2rem;
+  --column-gap-md: 4.8rem;
+  --column-gap-lg: 8rem;
+
+  /* Row gap */
+  --row-gap-lg: 9.6rem;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 10px;
+}
