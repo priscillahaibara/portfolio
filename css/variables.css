@@ -17,7 +17,7 @@
   --color-secondary-100: #eff3ea;
   --color-secondary-200: #d7dbd3;
   --color-secondary-300: #d9dfc6; /* header, footer, charts */
-  --color-secondary-400: #c3c9b2;
+  --color-secondary-400: #c3c9b2; /* link hover */
 
   /* Neutrals */
   --color-white: #ffffff;
@@ -33,12 +33,14 @@
   --color-bg: var(--color-primary-200); /* Main background (hero) */
   --color-bg-alt: var(--color-secondary-100); /* Alternative background (section) */
   --color-header-bg: var(--color-secondary-300); /* Header background */
+  --color-header-link-hover: var(--color-secondary-400); /* Hover color for header links */
   --color-footer-bg: var(--color-secondary-300); /* Footer background */
   --color-chart-bg: var(--color-secondary-300); /* Chart background */
   --color-chart-bar-fill: var(--color-primary-500); /* Chart bar fill */
   --color-button-bg: var(--color-primary-400); /* Button background */
-  --color-text-primary: var(--color-grey-900); /* Main text (titles) */
-  --color-text-secondary: var(--color-grey-700); /* Text description, links */
+  --color-text-primary: var(--color-grey-900); /* Main headings (h1, h2) */
+  --color-text-secondary: var(--color-grey-800); /* Subheadings (h3, h4) */
+  --color-text-tertiary: var(--color-grey-700); /* Descriptions, links */
 
   /* Font weight */
   --font-weight-regular: 400;
