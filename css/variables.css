@@ -35,9 +35,12 @@
   --color-header-bg: var(--color-secondary-300); /* Header background */
   --color-header-link-hover: var(--color-secondary-400); /* Hover color for header links */
   --color-footer-bg: var(--color-secondary-300); /* Footer background */
+  --color-social-icons: var(--color-grey-600);
+  --color-social-icons-hover: var(--color-grey-800);
   --color-chart-bg: var(--color-secondary-300); /* Chart background */
   --color-chart-bar-fill: var(--color-primary-500); /* Chart bar fill */
   --color-button-bg: var(--color-primary-400); /* Button background */
+  --color-button-bg-hover: var(--color-primary-500);
   --color-text-primary: var(--color-grey-900); /* Main headings (h1, h2) */
   --color-text-secondary: var(--color-grey-800); /* Subheadings (h3, h4) */
   --color-text-tertiary: var(--color-grey-700); /* Descriptions, links */
@@ -75,6 +78,16 @@
   --space-80: 8rem;
   --space-96: 9.6rem;
   --space-128: 12.8rem;
+
+  /* Padding and margin*/
+  --space-3xs: var(--space-12);
+  --space-2xs: var(--space-16);
+  --space-xs: var(--space-24);
+  --space-sm: var(--space-32);
+  --space-m: var(--space-48);
+  --space-lg: var(--space-64);
+  --space-xl: var(--space-80);
+  --space-2xl: var(--space-96);
 
   /* Column gap */
   --column-gap-sm: 3.2rem;

@@ -1,3 +1,5 @@
 @import url('variables.css');
 @import url('base.css');
-@import url('pages.css');
+@import url('layout.css');
+@import url('./pages/header.css');
+@import url('./pages/hero.css');
