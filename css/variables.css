@@ -38,6 +38,7 @@
   --color-social-icons: var(--color-grey-600);
   --color-social-icons-hover: var(--color-grey-800);
   --color-chart-bg: var(--color-secondary-300); /* Chart background */
+  --color-chart-bar-bg: var(--color-primary-100);
   --color-chart-bar-fill: var(--color-primary-500); /* Chart bar fill */
   --color-button-bg: var(--color-primary-400); /* Button background */
   --color-button-bg-hover: var(--color-primary-500);

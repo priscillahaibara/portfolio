@@ -1,0 +1,70 @@
+.skills {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-2xl);
+}
+
+.skills__title {
+  margin-bottom: var(--space-lg);
+}
+
+.skills__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: var(--column-gap-md);
+  row-gap: var(--row-gap-lg);
+}
+
+.skills__content-subtitle {
+  margin-bottom: var(--space-sm);
+}
+
+.chart {
+  width: 100%;
+  background-color: var(--color-chart-bg);
+  border-radius: var(--radius-md);
+  padding: 2.4rem 3.2rem 3rem 3.2rem;
+}
+
+.chart__title {
+  font-weight: var(--font-weight-semi-bold);
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.chart__bar {
+  height: 2rem;
+  background-color: var(--color-chart-bar-bg);
+  border-radius: var(--radius-sm);
+}
+
+.chart__bar:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.chart__bar-fill {
+  height: 100%;
+  background-color: var(--color-chart-bar-fill);
+  border-radius: var(--radius-sm);
+}
+
+
+.html {
+  width: 75%;
+}
+
+.javascript {
+  width: 75%;
+}
+
+.react {
+  width: 25%;
+}
+
+.git {
+  width: 75%;
+}
+
+.figma {
+  width: 50%;
+}

@@ -17,3 +17,9 @@
 .grid--v {
   align-items: center;
 }
+
+.title--uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: underline var(--color-primary-500) 3px;
+}
