@@ -30,21 +30,27 @@
   --color-black: #000000;
 
   /* Semantic colors */
-  --color-bg: var(--color-primary-200); /* Main background (hero) */
-  --color-bg-alt: var(--color-secondary-100); /* Alternative background (section) */
-  --color-header-bg: var(--color-secondary-300); /* Header background */
-  --color-header-link-hover: var(--color-secondary-400); /* Hover color for header links */
-  --color-footer-bg: var(--color-secondary-300); /* Footer background */
-  --color-social-icons: var(--color-grey-600);
-  --color-social-icons-hover: var(--color-grey-800);
-  --color-chart-bg: var(--color-secondary-300); /* Chart background */
-  --color-chart-bar-bg: var(--color-primary-100);
-  --color-chart-bar-fill: var(--color-primary-500); /* Chart bar fill */
-  --color-button-bg: var(--color-primary-400); /* Button background */
-  --color-button-bg-hover: var(--color-primary-500);
   --color-text-primary: var(--color-grey-900); /* Main headings (h1, h2) */
   --color-text-secondary: var(--color-grey-800); /* Subheadings (h3, h4) */
   --color-text-tertiary: var(--color-grey-700); /* Descriptions, links */
+  --color-bg: var(--color-primary-200); /* Main background (hero) */
+  --color-bg-alt: var(
+    --color-secondary-100
+  ); /* Alternative background (section) */
+  --color-header-bg: var(--color-secondary-300); /* Header background */
+  --color-header-link-hover: var(
+    --color-secondary-400
+  ); /* Hover color for header links */
+  --color-social-icons: var(--color-grey-600);
+  --color-social-icons-hover: var(--color-grey-800);
+  --color-button-bg: var(--color-primary-400); /* Button background */
+  --color-button-bg-hover: var(--color-primary-500);
+  --color-chart-bg: var(--color-secondary-300); /* Chart background */
+  --color-chart-bar-bg: var(--color-primary-100);
+  --color-chart-bar-fill: var(--color-primary-500); /* Chart bar fill */
+  --color-feature-bg: var(--color-white);
+  --color-feature-tag: var(--color-primary-600);
+  --color-footer-bg: var(--color-secondary-300); /* Footer background */
 
   /* Font weight */
   --font-weight-regular: 400;
@@ -60,6 +66,7 @@
   --font-size-md: 1.8rem; /* Paragraphs */
   --font-size-sm: 1.6rem; /* Labels, details */
   --font-size-xs: 1.4rem;
+  --font-size-2xs: 1.2rem;
   --font-size-base: 1rem; /* 10px */
 
   /* Line height */
@@ -89,6 +96,7 @@
   --space-lg: var(--space-64);
   --space-xl: var(--space-80);
   --space-2xl: var(--space-96);
+  --space-3xl: var(--space-128);
 
   /* Column gap */
   --column-gap-sm: 3.2rem;
