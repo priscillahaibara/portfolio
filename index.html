@@ -104,7 +104,10 @@
                   </a>
                 </li>
               </ul>
-              <a class="button--cta button--disabled" href="#" aria-disabled="true"
+              <a
+                class="button--cta button--disabled"
+                href="#"
+                aria-disabled="true"
                 >Resume</a
               >
             </div>
@@ -124,99 +127,95 @@
       <!-- SKILLS SECTION -->
       <section class="skills" id="skills">
         <div class="container">
-          <h2 class="skills__title u-title--uppercase">SKILLS AND TOOLS</h2>
+          <h2 class="skills__title title--uppercase">SKILLS AND TOOLS</h2>
 
-          <div class="skills__container">
+          <div class="skills__content">
             <!-- FRONT END SECTION 01 -->
             <div class="skills--left">
-              <h3 class="skills__subtitle">Front End</h3>
-              <p class="skills__description">
+              <h3 class="skills__content-subtitle">Front End</h3>
+              <p class="skills__content-description">
                 Develops responsive and accessible web interfaces using HTML,
                 CSS, JavaScript and React. Experienced in component-based
                 architecture, state management, and front-end best practices.
               </p>
             </div>
 
-            <div class="chart__container skills--right">
-              <div>
-                <h4 class="chart__title">HTML/CSS</h4>
-                <div class="chart__bar">
-                  <div
-                    class="chart__bar-fill html"
-                    role="progressbar"
-                    aria-label="HTML/CSS skill level"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    title="75%"
-                  ></div>
-                </div>
+            <div class="chart skills--right">
+              <h4 class="chart__title">HTML/CSS</h4>
+              <div class="chart__bar">
+                <div
+                  class="chart__bar-fill html"
+                  role="progressbar"
+                  aria-label="HTML/CSS skill level"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  title="75%"
+                ></div>
+              </div>
 
-                <h4 class="chart__title">Javascript</h4>
-                <div class="chart__bar">
-                  <div
-                    class="chart__bar-fill javascript"
-                    role="progressbar"
-                    aria-label="Javascript skill level"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    title="75%"
-                  ></div>
-                </div>
+              <h4 class="chart__title">Javascript</h4>
+              <div class="chart__bar">
+                <div
+                  class="chart__bar-fill javascript"
+                  role="progressbar"
+                  aria-label="Javascript skill level"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  title="75%"
+                ></div>
+              </div>
 
-                <h4 class="chart__title">React</h4>
-                <div class="chart__bar">
-                  <div
-                    class="chart__bar-fill react"
-                    role="progressbar"
-                    aria-label="React skill level"
-                    aria-valuenow="25"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    title="25%"
-                  ></div>
-                </div>
+              <h4 class="chart__title">React</h4>
+              <div class="chart__bar">
+                <div
+                  class="chart__bar-fill react"
+                  role="progressbar"
+                  aria-label="React skill level"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  title="25%"
+                ></div>
               </div>
             </div>
 
             <!-- DEVELOPMENT TOOLS SECTION 02 -->
-            <div class="skills--left">
-              <h3 class="skills__subtitle">Development Tools</h3>
-              <p class="skills__description">
+            <div class="chart skills--left">
+              <h4 class="chart__title">Git/Github</h4>
+              <div class="chart__bar">
+                <div
+                  class="chart__bar-fill git"
+                  role="progressbar"
+                  aria-label="Git/Github skill level"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  title="75%"
+                ></div>
+              </div>
+
+              <h4 class="chart__title">Figma</h4>
+              <div class="chart__bar">
+                <div
+                  class="chart__bar-fill figma"
+                  role="progressbar"
+                  aria-label="Figma skill level"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  title="50%"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skills--right">
+              <h3 class="skills__content-subtitle">Development Tools</h3>
+              <p class="skills__content-description">
                 Knowledge in using Figma for interface design. Familiar with Git
                 and GitHub for version control and collaboration on projects.
               </p>
-            </div>
-
-            <div class="skills--right chart__container">
-              <div>
-                <h4 class="chart__title">Git/Github</h4>
-                <div class="chart__bar">
-                  <div
-                    class="chart__bar-fill git"
-                    role="progressbar"
-                    aria-label="Git/Github skill level"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    title="75%"
-                  ></div>
-                </div>
-
-                <h4 class="chart__title">Figma</h4>
-                <div class="chart__bar">
-                  <div
-                    class="chart__bar-fill figma"
-                    role="progressbar"
-                    aria-label="Figma skill level"
-                    aria-valuenow="50"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    title="50%"
-                  ></div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -225,25 +224,23 @@
       <!-- PROJECTS SECTION-->
 
       <section class="projects" id="projects">
-        <div class="bg-video__container">
-          <video
-            class="bg-video"
-            role="presentation"
-            autoplay
-            muted
-            loop
-            playsinline
-          >
-            <source
-              src="assets/videos/autumn-video-medium.mp4"
-              type="video/mp4"
-            />
-            Your browser is not supported!
-          </video>
-        </div>
+        <video
+          class="bg-video"
+          role="presentation"
+          autoplay
+          muted
+          loop
+          playsinline
+        >
+          <source
+            src="assets/videos/autumn-video-medium.mp4"
+            type="video/mp4"
+          />
+          Your browser is not supported!
+        </video>
 
         <div class="container">
-          <h2 class="projects__title u-title--uppercase">Featured Projects</h2>
+          <h2 class="projects__title title--uppercase">Featured Projects</h2>
 
           <div class="feature">
             <div class="feature__container">
@@ -289,8 +286,61 @@
               </div>
 
               <div class="feature__content">
-                <div class="feature__tags">
-                  <span class="feature__tag">Javascript</span>
+                <div class="feature__content-tags">
+                  <span class="feature__content-tag">Javascript</span>
+                </div>
+                <p class="feature__content-description">Coming soon!</p>
+              </div>
+            </div>
+
+            <div class="feature__container">
+              <div class="feature__container-img">
+                <img
+                  class="feature__img"
+                  src="assets/images/project.jpg"
+                  alt="Preview of project"
+                  loading="lazy"
+                />
+                <a
+                  class="feature__icon--code"
+                  href="#"
+                  target="_blank"
+                  aria-label="View source code"
+                  rel="noopener noreferrer"
+                >
+                  <ion-icon
+                    class="feature__icon"
+                    name="code-outline"
+                  ></ion-icon>
+                </a>
+                <span
+                  class="feature__icon-label feature__icon-label--left small"
+                  >Code</span
+                >
+                <a
+                  class="feature__icon--open"
+                  href="#"
+                  target="_blank"
+                  aria-label="View project"
+                  rel="noopener noreferrer"
+                >
+                  <ion-icon
+                    class="feature__icon"
+                    name="open-outline"
+                  ></ion-icon>
+                </a>
+                <span
+                  class="feature__icon-label feature__icon-label--right small"
+                  >Project</span
+                >
+              </div>
+
+              <div class="feature__content">
+                <div class="feature__content-tags">
+                  <span class="feature__content-tag">HTML</span>
+                  <span class="feature__content-tag">CSS</span>
+                  <span class="feature__content-tag">Javascript</span>
+                  <span class="feature__content-tag">Figma</span>
                 </div>
                 <p class="feature__description">Coming soon!</p>
               </div>
@@ -339,61 +389,8 @@
               </div>
 
               <div class="feature__content">
-                <div class="feature__tags">
-                  <span class="feature__tag">HTML</span>
-                  <span class="feature__tag">CSS</span>
-                  <span class="feature__tag">Javascript</span>
-                  <span class="feature__tag">Figma</span>
-                </div>
-                <p class="feature__description">Coming soon!</p>
-              </div>
-            </div>
-
-            <div class="feature__container">
-              <div class="feature__container-img">
-                <img
-                  class="feature__img"
-                  src="assets/images/project.jpg"
-                  alt="Preview of project"
-                  loading="lazy"
-                />
-                <a
-                  class="feature__icon--code"
-                  href="#"
-                  target="_blank"
-                  aria-label="View source code"
-                  rel="noopener noreferrer"
-                >
-                  <ion-icon
-                    class="feature__icon"
-                    name="code-outline"
-                  ></ion-icon>
-                </a>
-                <span
-                  class="feature__icon-label feature__icon-label--left small"
-                  >Code</span
-                >
-                <a
-                  class="feature__icon--open"
-                  href="#"
-                  target="_blank"
-                  aria-label="View project"
-                  rel="noopener noreferrer"
-                >
-                  <ion-icon
-                    class="feature__icon"
-                    name="open-outline"
-                  ></ion-icon>
-                </a>
-                <span
-                  class="feature__icon-label feature__icon-label--right small"
-                  >Project</span
-                >
-              </div>
-
-              <div class="feature__content">
-                <div class="feature__tags">
-                  <span class="feature__tag">React</span>
+                <div class="feature__content-tags">
+                  <span class="feature__content-tag">React</span>
                 </div>
                 <p class="feature__description">Coming soon!</p>
               </div>

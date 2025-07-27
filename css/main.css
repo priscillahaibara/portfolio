@@ -3,3 +3,5 @@
 @import url('layout.css');
 @import url('./pages/header.css');
 @import url('./pages/hero.css');
+@import url('./pages/skills.css');
+@import url('./pages/projects.css')
