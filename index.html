@@ -28,9 +28,9 @@
     <!-- HEADER -->
     <div id="home" style="position: relative; top: -100px"></div>
     <header class="header sticky">
-      <a class="header__logo-link" href="#home">
+      <a class="logo" href="#home">
         <img
-          class="header__logo-img"
+          class="logo__img"
           alt="Priscilla Haibara Logo"
           src="./assets/logos/logo.png"
           loading="lazy"
@@ -173,6 +173,19 @@
                   class="chart__bar-fill react"
                   role="progressbar"
                   aria-label="React skill level"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  title="25%"
+                ></div>
+              </div>
+
+              <h4 class="chart__title">Typescript</h4>
+              <div class="chart__bar">
+                <div
+                  class="chart__bar-fill typescript"
+                  role="progressbar"
+                  aria-label="Typescript skill level"
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
@@ -407,7 +420,7 @@
             <h2 class="about__title u-title--uppercase">About me</h2>
 
             <div>
-              <p class="about__content">
+              <p class="about__description">
                 I am a versatile professional in my final year of a Bachelor's
                 degree in Software Engineering, currently transitioning from a
                 career in medicine to technology. With 5 years of experience as
@@ -436,9 +449,7 @@
                   </div>
                 </article>
                 <article>
-                  <h4
-                    class="timeline__subtitle u-border-top--thin u-padding-top--medium"
-                  >
+                  <h4 class="timeline__subtitle u-border-top">
                     Pontifical Catholic University of Parana
                   </h4>
                   <div class="timeline__box">
@@ -449,9 +460,7 @@
                 <article
                   aria-label="Software Engineering Degree at Cesumar University, from 2022 to 2026 (ongoing)"
                 >
-                  <h4
-                    class="timeline__subtitle u-border-top--thin u-padding-top--medium"
-                  >
+                  <h4 class="timeline__subtitle u-border-top">
                     Cesumar University
                   </h4>
                   <div class="timeline__box">
@@ -481,17 +490,13 @@
                 <article
                   aria-label="Work as Freelance Front End Developer Starting in 2025"
                 >
-                  <h4
-                    class="timeline__subtitle u-border-top--thin u-padding-top--medium"
-                  >
-                    Freelancer
-                  </h4>
+                  <h4 class="timeline__subtitle u-border-top">Freelancer</h4>
                   <div class="timeline__box">
                     <p>Front End Developer</p>
                     <p>2025 - Present</p>
                   </div>
                 </article>
-                <div class="remove-border u-border-top--thin"></div>
+                <div class="u-border-top"></div>
               </div>
             </div>
           </div>
@@ -501,16 +506,16 @@
       <!-- FOOTER -->
       <footer class="footer" id="contact" role="contentinfo">
         <div class="footer__container container">
-          <a href="#home" aria-label="Back to top">
+          <a class="logo" href="#home" aria-label="Back to top">
             <img
-              class="logo"
+              class="logo__img"
               alt="Priscilla Haibara Logo"
               src="./assets/logos/logo.png"
               loading="lazy"
             />
           </a>
-          <p class="footer__text">Made by Priscilla Haibara</p>
-          <address class="footer__text">
+          <p class="footer__description">Made by Priscilla Haibara</p>
+          <address class="footer__description">
             <a href="mailto:megumi.ufrn@gmail.com">megumi.ufrn@gmail.com</a>
           </address>
         </div>

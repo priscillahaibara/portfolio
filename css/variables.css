@@ -92,7 +92,7 @@
   --space-2xs: var(--space-16);
   --space-xs: var(--space-24);
   --space-sm: var(--space-32);
-  --space-m: var(--space-48);
+  --space-md: var(--space-48);
   --space-lg: var(--space-64);
   --space-xl: var(--space-80);
   --space-2xl: var(--space-96);
