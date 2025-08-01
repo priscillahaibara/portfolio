@@ -9,10 +9,6 @@
   position: relative;
 }
 
-.header__logo-img {
-  height: 6.2rem;
-}
-
 .header__nav-list {
   display: flex;
   justify-content: space-between;

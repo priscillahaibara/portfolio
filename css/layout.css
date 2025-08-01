@@ -19,3 +19,7 @@
 .u-border-top {
   border-top: 1px solid var(--color-grey-200);
 }
+
+.logo__img {
+  height: 6.2rem;
+}
