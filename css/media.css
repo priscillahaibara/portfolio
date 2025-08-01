@@ -1,6 +1,8 @@
 /* ====== MEDIA QUERIES ====== */
 @media (max-width: 47em) {
   /* Bellow 752px */
+
+  /* HERO */
     .container {
     grid-template-columns: 1fr;
   }
@@ -23,5 +25,15 @@
 
     .social-links {
       justify-content: center;
+    }
+
+    /* SKILLS */
+
+    .skills__content {
+      grid-template-columns: 1fr;
+    }
+
+    .skills__content--development-tools {
+      grid-row: 3/4;
     }
 }

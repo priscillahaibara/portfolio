@@ -59,14 +59,12 @@ h4 {
 
 p {
     font-size: clamp(var(--font-size-sm), 2vw, var(--font-size-md));
-    /* font-size: var(--font-size-md); */
     line-height: var(--line-height-relaxed);
     color: var(--color-text-tertiary);
 }
 
 .small {
     font-size: clamp(var(--font-size-xl), 2vw, var(--font-size-sm));
-    /* font-size: var(--font-size-sm); */
     line-height: var(--line-height-relaxed);
 }
 
