@@ -14,11 +14,11 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: clamp(var(--space-sm), 4vw, var(--space-md));
-  row-gap: clamp(var(--space-md), 6vw, var(--space-xl));
+  row-gap: clamp(var(--space-sm), 5vw, var(--space-xl));
 }
 
 .skills__content-subtitle {
-  margin-bottom: clamp(var(--space-2xs), 3vw, var(--space-xs));
+  margin-bottom: clamp(var(--space-3xs), 3vw, var(--space-xs));
 }
 
 .chart {
