@@ -45,15 +45,18 @@
 
 /* ====== TOGGLE MENU ======  */
 
-.header__toggle,
-.header__toggle--burger,
-.header__toggle--close {
+.header__toggle {
   position: absolute;
   top: 50%;
-  right: 2rem;
+  right: 6rem;
   transform: translateY(-50%);
   cursor: pointer;
-  display: block;
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  background: none;
+  border: none;
+  z-index: 100;
 }
 
 .header__toggle--burger,
@@ -63,7 +66,6 @@
   transition: opacity 0.1s, transform 0.3s;
   width: max-content;
   height: max-content;
-  inset: 0;
   opacity: 0;
+  position: absolute; 
 }
-
