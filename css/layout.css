@@ -16,7 +16,7 @@
   text-decoration: underline var(--color-primary-500) 3px;
 }
 
-.u-border-top {
+.border-top {
   border-top: 1px solid var(--color-grey-200);
 }
 

@@ -1,24 +1,24 @@
 /* ====== SKILLS ======  */
 
 .skills {
-  padding-top: var(--space-xl);
-  padding-bottom: var(--space-2xl);
+  padding-top: clamp(var(--space-lg), 5vw, var(--space-xl));
+  padding-bottom: clamp(var(--space-xl), 5vw, var(--space-2xl));
 }
 
 .skills__title {
-  margin-bottom: var(--space-lg);
+  margin-bottom: clamp(var(--space-md), 4vw, var(--space-lg));
 }
 
 .skills__content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  column-gap: var(--column-gap-md);
-  row-gap: var(--row-gap-lg);
+  column-gap: clamp(var(--space-sm), 4vw, var(--space-md));
+  row-gap: clamp(var(--space-sm), 5vw, var(--space-xl));
 }
 
 .skills__content-subtitle {
-  margin-bottom: var(--space-sm);
+  margin-bottom: clamp(var(--space-3xs), 3vw, var(--space-xs));
 }
 
 .chart {
@@ -41,7 +41,7 @@
 }
 
 .chart__bar:not(:last-child) {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .chart__bar-fill {
@@ -49,7 +49,6 @@
   background-color: var(--color-chart-bar-fill);
   border-radius: var(--radius-sm);
 }
-
 
 .html {
   width: 75%;

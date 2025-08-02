@@ -88,6 +88,7 @@
   --space-128: 12.8rem;
 
   /* Padding and margin*/
+  --space-4xs: var(--space-8);
   --space-3xs: var(--space-12);
   --space-2xs: var(--space-16);
   --space-xs: var(--space-24);

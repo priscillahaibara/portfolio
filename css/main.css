@@ -6,4 +6,5 @@
 @import url('./pages/skills.css');
 @import url('./pages/projects.css');
 @import url('./pages/about.css');
-@import url(./pages/footer.css);
+@import url('./pages/footer.css');
+@import url('./media.css')

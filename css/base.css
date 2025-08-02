@@ -38,32 +38,34 @@ h1, h2 {
 }
 
 h1 {
-    font-size: var(--font-size-3xl);
+    font-size: clamp(var(--font-size-2xl), 4vw, var(--font-size-3xl));
 }
 
 h2 {
-    font-size: var(--font-size-2xl);
+    font-size: clamp(var(--font-size-xl), 4vw, var(--font-size-2xl));
 }
 
 h3 {
-    font-size: var(--font-size-xl);
+    font-size: clamp(var(--font-size-lg), 4vw, var(--font-size-xl));
     font-weight: var(--font-weight-semi-bold);
     color: var(--color-text-secondary);
 }
 
 h4 {
-    font-size: var(--font-size-lg);
+    font-size: clamp(var(--font-size-md), 4vw, var(--font-size-lg));
     font-weight: var(--font-weight-medium);
     color: var(--color-text-secondary);
 }
 
 p {
-    font-size: var(--font-size-md);
+    font-size: clamp(var(--font-size-sm), 2vw, var(--font-size-md));
     line-height: var(--line-height-relaxed);
     color: var(--color-text-tertiary);
 }
 
 .small {
-    font-size: var(--font-size-sm);
+    font-size: clamp(var(--font-size-xl), 2vw, var(--font-size-sm));
     line-height: var(--line-height-relaxed);
 }
+
+

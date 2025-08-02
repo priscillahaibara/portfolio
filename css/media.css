@@ -1,0 +1,127 @@
+/* ====== MEDIA QUERIES ====== */
+/* Bellow 960px */
+@media (max-width: 60em) {
+  .timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline__box {
+    min-height: 2rem;
+    max-height: 6rem;
+    overflow: hidden;
+  }
+
+  .border-top:last-child {
+    border: none;
+  }
+
+  .timeline__title--work {
+    margin-top: clamp(var(--space-sm), 4vw, var(--space-md));
+  }
+}
+
+@media (max-width: 42em) {
+  /* Bellow 672px */
+
+  /* NAVIGATION MENU */
+  .header__nav {
+    position: absolute;
+    top: 5.6rem;
+    right: 0;
+    width: 100%;
+    transition: top 0.4s, opacity 0.3s;
+    overflow: auto;
+    opacity: 0;
+  }
+
+  .header__nav-list {
+    display: block;
+    padding-top: 1rem;
+    background-color: rgb(217, 223, 198, 0.95);
+  }
+
+  .header__nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .header__toggle--burger {
+    opacity: 1;
+  }
+
+  /* Show menu */
+  .show-menu {
+    opacity: 1;
+  }
+
+  /* Show icon */
+  .show-icon .header__toggle--burger {
+    opacity: 0;
+    transform: rotate(90deg);
+  }
+
+  .show-icon .header__toggle--close {
+    opacity: 1;
+    transform: rotate(90deg);
+  }
+
+  /* HERO */
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__content-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__img {
+    width: 75%;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  /* SKILLS */
+
+  .skills__content {
+    grid-template-columns: 1fr;
+  }
+
+  .skills__content--development-tools {
+    grid-row: 3/4;
+  }
+
+  /* PROJECTS */
+  .feature {
+    grid-template-columns: 1fr;
+    row-gap: var(--space-sm);
+    width: 70%;
+  }
+
+  .feature__icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  /* FOOTER */
+
+  .footer__container {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .footer .logo {
+    display: none;
+  }
+}
