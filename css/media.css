@@ -79,6 +79,10 @@
     text-align: center;
   }
 
+  .hero__content-title {
+    margin-bottom: 0;
+  }
+
   .hero__content-img {
     display: flex;
     justify-content: center;
@@ -94,7 +98,7 @@
 
   /* SKILLS */
 
-  .skills__content {
+  .skills__container {
     grid-template-columns: 1fr;
   }
 
