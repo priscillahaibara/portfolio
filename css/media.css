@@ -98,7 +98,7 @@
 
   /* SKILLS */
 
-  .skills__content {
+  .skills__container {
     grid-template-columns: 1fr;
   }
 
