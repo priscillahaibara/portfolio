@@ -9,7 +9,7 @@
   margin-bottom: clamp(var(--space-md), 4vw, var(--space-lg));
 }
 
-.skills__content {
+.skills__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
