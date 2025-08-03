@@ -20,7 +20,9 @@
 }
 
 .hero__content-title {
-  margin-bottom: clamp(var(--space-2xs), 3vw, var(--space-xs));
+  margin-bottom: clamp(var(--space-3xs), 3vw, var(--space-2xs));
+  display: inline-block;
+  max-width: 50vh;
 }
 
 .hero__content-description {
