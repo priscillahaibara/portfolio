@@ -1,5 +1,6 @@
 /* ====== CLASSES USED FOR ANIMATEX TEXT ====== */
 .animated-text {
+  min-height: clamp(4.5rem, 4vw, 4.7rem);
   border-right: 2px solid #000;
   white-space: nowrap;
   overflow: hidden;

@@ -10,8 +10,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  column-gap: clamp(var(--space-lg), 5vw, var(--space-xl));
-  row-gap: clamp(var(--space-sm), 5vw, var(--space-2xl));
+  column-gap: clamp(var(--space-sm), 4vw, var(--space-md));
+  row-gap: clamp(var(--space-sm), 5vw, var(--space-xl));
 }
 
 .hero__img {
@@ -20,9 +20,9 @@
 }
 
 .hero__content-title {
-  margin-bottom: clamp(var(--space-3xs), 3vw, var(--space-2xs));
+  margin-bottom: clamp(var(--space-4xs), 2vw, var(--space-3xs));
   display: inline-block;
-  max-width: 50vh;
+  width: 40vh;
 }
 
 .hero__content-description {
