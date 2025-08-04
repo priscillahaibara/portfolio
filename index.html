@@ -237,20 +237,24 @@
       <!-- PROJECTS SECTION-->
 
       <section class="projects" id="projects">
-        <video
-          class="bg-video"
-          role="presentation"
-          autoplay
-          muted
-          loop
-          playsinline
-        >
-          <source
-            src="assets/videos/autumn-video-medium.mp4"
-            type="video/mp4"
-          />
-          Your browser is not supported!
-        </video>
+        <div class="projects__background">
+          <video
+            class="projects__background-video"
+            role="presentation"
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="assets/images/video-cover.jpg"
+            preload="none"
+          >
+            <source
+              data-src="assets/videos/autumn-video-medium.mp4"
+              type="video/mp4"
+            />
+            Your browser is not supported!
+          </video>
+        </div>
 
         <div class="container">
           <h2 class="projects__title title--uppercase">Featured Projects</h2>
@@ -530,6 +534,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <script src="./js/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
