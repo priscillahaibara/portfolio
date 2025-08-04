@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", type);
 /* ====== SECTION SKILLS ANIMATION ======  */
 const allHiddenSkills = document.querySelectorAll(".chart, .skills__content");
 
-const observer = new IntersectionObserver(
+const skillsObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
@@ -61,12 +61,32 @@ const observer = new IntersectionObserver(
         entry.target.style.opacity = 1;
         entry.target.classList.add("animated--left");
       }
+      skillsObserver.unobserve(entry.target)
     });
   },
   { threshold: 0.5 }
 );
 
-allHiddenSkills.forEach((skill) => observer.observe(skill));
+allHiddenSkills.forEach((skill) => skillsObserver.observe(skill));
 
 /* ASYNCHRONOUS LOADING OF BACKGROUND VIDEO */
+const video = document.querySelector(".projects__background-video");
+const source = video.querySelector("source");
 
+const videoObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      
+      const videoSrc = source.getAttribute('data-src');
+      if (videoSrc) {
+        source.setAttribute('src', videoSrc);
+        video.load();
+      }
+      videoObserver.unobserve(video);
+    });
+  },
+  { threshold: 0 }
+);
+
+videoObserver.observe(video);
