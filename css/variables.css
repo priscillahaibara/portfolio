@@ -34,13 +34,9 @@
   --color-text-secondary: var(--color-grey-800); /* Subheadings (h3, h4) */
   --color-text-tertiary: var(--color-grey-700); /* Descriptions, links */
   --color-bg: var(--color-primary-200); /* Main background (hero) */
-  --color-bg-alt: var(
-    --color-secondary-100
-  ); /* Alternative background (section) */
-  --color-header-bg: var(--color-secondary-300); /* Header background */
-  --color-header-link-hover: var(
-    --color-secondary-400
-  ); /* Hover color for header links */
+  --color-bg-alt: var(--color-secondary-100); /* Alternative background (section) */
+  --color-header-bg: rgba(217, 223, 198, 0.95); /* Header background */
+  --color-header-link-hover: var(--color-secondary-400); /* Hover color for header links */
   --color-social-icons: var(--color-grey-600);
   --color-social-icons-hover: var(--color-grey-800);
   --color-button-bg: var(--color-primary-400); /* Button background */
@@ -48,7 +44,7 @@
   --color-chart-bg: var(--color-secondary-300); /* Chart background */
   --color-chart-bar-bg: var(--color-primary-100);
   --color-chart-bar-fill: var(--color-primary-500); /* Chart bar fill */
-  --color-feature-bg: var(--color-white);
+  --color-feature-bg: rgba(255, 255, 255, 0.8);
   --color-feature-tag: var(--color-primary-600);
   --color-footer-bg: var(--color-secondary-300); /* Footer background */
 
@@ -98,14 +94,6 @@
   --space-xl: var(--space-80);
   --space-2xl: var(--space-96);
   --space-3xl: var(--space-128);
-
-  /* Column gap */
-  --column-gap-sm: 3.2rem;
-  --column-gap-md: 4.8rem;
-  --column-gap-lg: 8rem;
-
-  /* Row gap */
-  --row-gap-lg: 9.6rem;
 
   /* Border radius */
   --radius-sm: 4px;
