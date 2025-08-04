@@ -67,3 +67,6 @@ const observer = new IntersectionObserver(
 );
 
 allHiddenSkills.forEach((skill) => observer.observe(skill));
+
+/* ASYNCHRONOUS LOADING OF BACKGROUND VIDEO */
+
