@@ -16,7 +16,7 @@ export default function videoObserver() {
         observer.unobserve(video);
       });
     },
-    { threshold: 0 }
+    { threshold: 0,  rootMargin: '300px 0px'}
   );
   observer.observe(video);
 }
