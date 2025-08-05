@@ -1,4 +1,13 @@
 /* ====== MEDIA QUERIES ====== */
+@media (max-width: 75em) {
+  /* Bellow 1200px */
+
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+}
+
 /* Bellow 960px */
 @media (max-width: 60em) {
   .timeline {
