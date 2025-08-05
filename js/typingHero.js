@@ -1,28 +1,33 @@
 /* ====== SECTION HERO ANIMATION ======  */
 const element = document.querySelector(".animated-text");
-const texts = ["Software Engineer.", "Front-end Devoloper.", "Medical Doctor."];
-let textIndex = 0;
-let charIndex = 0;
-let isDeleting = false;
+const texts = ["Software Engineer.", "Front-end Developer.", "Medical Doctor."];
 
 export default function typingHero() {
-  const currentText = texts[textIndex];
-  const speed = isDeleting ? 50 : 120;
+  let textIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
 
-  element.textContent = currentText.substring(0, charIndex);
+  function type() {
+    const currentText = texts[textIndex];
+    const speed = isDeleting ? 50 : 120;
 
-  if (!isDeleting && charIndex < currentText.length) {
-    charIndex++;
-  } else if (isDeleting && charIndex > 0) {
-    charIndex--;
-  } else if (!isDeleting) {
-    isDeleting = true;
-    setTimeout(typingHero, 2000);
-    return;
-  } else {
-    isDeleting = false;
-    textIndex = (textIndex + 1) % texts.length;
+    element.textContent = currentText.substring(0, charIndex);
+
+    if (!isDeleting && charIndex < currentText.length) {
+      charIndex++;
+    } else if (isDeleting && charIndex > 0) {
+      charIndex--;
+    } else if (!isDeleting && charIndex === currentText.length) {
+      isDeleting = true;
+      setTimeout(type, 2000); // pausa antes de apagar
+      return;
+    } else if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      textIndex = (textIndex + 1) % texts.length;
+    }
+
+    setTimeout(type, speed);
   }
-  setTimeout(typingHero, speed);
-}
 
+  type();
+}

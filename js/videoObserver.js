@@ -1,12 +1,15 @@
 /* ASYNCHRONOUS LOADING OF BACKGROUND VIDEO */
-const video = document.querySelector(".projects__background-video");
-const source = video.querySelector("source");
-
 export default function videoObserver() {
+  const video = document.querySelector(".projects__background-video");
+  if (!video) return;
+
+  const source = video.querySelector("source");
+  if (!source) return;
+
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
+        if (!entry.isIntersecting || source.src) return;
 
         const videoSrc = source.getAttribute("data-src");
         if (videoSrc) {
@@ -16,7 +19,9 @@ export default function videoObserver() {
         observer.unobserve(video);
       });
     },
-    { threshold: 0,  rootMargin: '300px 0px'}
+    { threshold: 0, rootMargin: '300px 0px' }
   );
+
   observer.observe(video);
 }
+
