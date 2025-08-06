@@ -13,12 +13,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: clamp(var(--space-sm), 4vw, var(--space-md));
+  gap: var(--space-md);
 }
 
 .header__nav-link:link,
 .header__nav-link:visited {
-  font-size: clamp(var(--font-size-xs), 2vw, var(--font-size-sm));
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-semi-bold);
   text-transform: uppercase;
   color: var(--color-text-tertiary);

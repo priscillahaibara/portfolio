@@ -1,18 +1,18 @@
 /* ====== ABOUT ======  */
 
 .about {
-  padding-top: clamp(var(--space-lg), 5vw, var(--space-xl));
-  padding-bottom: clamp(var(--space-xs), 3vw, var(--space-sm));
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-sm);
   background-color: var(--color-bg-alt);
 }
 
 .about__title {
-  margin-bottom: clamp(var(--space-xs), 3vw, var(--space-sm));
+  margin-bottom: var(--space-sm);
   background-color: var(--color-bg-alt);
 }
 
 .about__description {
-  margin-bottom: clamp(var(--space-sm), 4vw, var(--space-md));
+  margin-bottom: var(--space-md);
 }
 
 .timeline {
@@ -22,18 +22,18 @@
 }
 
 .timeline__title {
-  margin-bottom: clamp(var(--space-4xs), 1vw, var(--space-xs));
+  margin-bottom: var(--space-xs);
 }
 
 .timeline__container {
   display: flex;
   flex-direction: column;
-  gap: clamp(var(--space-xs), 2vw, var(--space-sm));
+  gap: var(--space-sm);
 }
 
 .timeline__subtitle {
   margin-bottom: 0.8rem;
-  padding-top: clamp(var(--space-2xs), 1vw, var(--space-sm));
+  padding-top: var(--space-sm);
 }
 
 .timeline__box {

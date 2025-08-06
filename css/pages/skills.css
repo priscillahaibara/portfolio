@@ -1,24 +1,24 @@
 /* ====== SKILLS ======  */
 
 .skills {
-  padding-top: clamp(var(--space-lg), 5vw, var(--space-xl));
-  padding-bottom: clamp(var(--space-xl), 5vw, var(--space-2xl));
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-2xl);
 }
 
 .skills__title {
-  margin-bottom: clamp(var(--space-md), 4vw, var(--space-lg));
+  margin-bottom: var(--space-lg);
 }
 
 .skills__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  column-gap: clamp(var(--space-sm), 4vw, var(--space-md));
-  row-gap: clamp(var(--space-sm), 5vw, var(--space-xl));
+  column-gap: var(--space-md);
+  row-gap: var(--space-xl);
 }
 
 .skills__content-subtitle {
-  margin-bottom: clamp(var(--space-3xs), 3vw, var(--space-xs));
+  margin-bottom: var(--space-xs);
 }
 
 .chart {
