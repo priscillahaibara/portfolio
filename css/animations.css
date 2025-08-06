@@ -1,23 +1,27 @@
 /* ====== CLASSES USED WITH INTERSECTION OBSERVER (ANIMATED IMAGES) ====== */
-.hidden--right,
+.hidden--right {
+  opacity: 0;
+}
+
 .hidden--left {
   opacity: 0;
 }
 
 .animated--right {
+  opacity: 1;
   animation: animation--moveInRight 0.6s ease-out;
-}
+  }
 
 .animated--left {
+  opacity: 1;
   animation: animation--moveInLeft 0.6s ease-out;
-}
+  }
 
 /* ====== ANIMATION KEYFRAMES ====== */
-
 @keyframes animation--moveInRight {
   0% {
     opacity: 0;
-    transform: translateX(150px);
+    transform: translateX(50px);
   }
 
   100% {
@@ -29,7 +33,7 @@
 @keyframes animation--moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-150px);
+    transform: translateX(-50px);
   }
 
   100% {
@@ -41,7 +45,7 @@
 @keyframes animation--moveInBottom {
   0% {
     opacity: 0;
-    transform: translateY(150px);
+    transform: translateY(50px);
   }
 
   100% {
