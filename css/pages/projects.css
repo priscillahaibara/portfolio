@@ -81,10 +81,8 @@
 }
 
 .feature__icon {
-  height: clamp(1.5rem, 3vw, 3rem);
-  width: clamp(1.5rem, 3vw, 3rem);
+  font-size: 2.4rem;
   color: var(--color-white);
-  --ionicon-stroke-width: 4rem;
 }
 
 .feature__icon--code,
@@ -96,7 +94,7 @@
   transition: opacity 0.3s ease;
   background-color: rgba(0, 0, 0, 0.85);
   border-radius: var(--radius-md);
-  padding: 1rem;
+  padding: 1.2rem 1.6rem;
 }
 
 .feature__icon--code {
