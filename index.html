@@ -9,19 +9,20 @@
     />
     <meta name="author" content="Priscilla Haibara" />
     <meta
-      name="keywords"
-      content="Software Developer, Front End, Web Developer, React, HTML, CSS, JavaScript, Canada, Portfolio"
+      content="Software Developer, Front End, Web Developer, React, HTML, CSS, JavaScript, Typescript, Canada, Portfolio"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/main.css" />
+
     <title>Priscilla Haibara | Software Developer Portfolio</title>
   </head>
   <body>
@@ -32,13 +33,12 @@
           class="logo__img"
           alt="Priscilla Haibara Logo"
           src="./assets/logos/logo.png"
-          loading="lazy"
         />
       </a>
 
       <nav class="header__nav" id="header-nav" aria-label="Main navigation">
         <ul class="header__nav-list">
-          <li><a href="#home" class="header__nav-link">Home</a></li>
+          <li><a href="#" class="header__nav-link">Home</a></li>
           <li><a href="#skills" class="header__nav-link">Skills</a></li>
           <li><a href="#projects" class="header__nav-link">Projects</a></li>
           <li><a href="#about" class="header__nav-link">About</a></li>
@@ -65,7 +65,8 @@
           <div class="hero__content">
             <h1 class="hero__content-title">
               Hi, my name is Priscilla. <br />
-              I am a Software Engineer Student
+              I am a Software Engineer Student.
+              <span class="animated-text"></span>
             </h1>
             <p class="hero__content-description">
               Passionate about front-end technologies (web and mobile) with a
@@ -82,10 +83,7 @@
                     aria-label="LinkedIn Profile"
                     title="LinkedIn Profile"
                   >
-                    <ion-icon
-                      class="social-links__icon"
-                      name="logo-linkedin"
-                    ></ion-icon>
+                    <i class="ri-linkedin-box-fill social-links__icon"></i>
                   </a>
                 </li>
                 <li>
@@ -96,10 +94,7 @@
                     aria-label="Github Profile"
                     title="Github Profile"
                   >
-                    <ion-icon
-                      class="social-links__icon"
-                      name="logo-github"
-                    ></ion-icon>
+                    <i class="ri-github-fill social-links__icon"></i>
                   </a>
                 </li>
               </ul>
@@ -117,7 +112,6 @@
               class="hero__img"
               alt="Illustration of a woman coding on a computer"
               src="./assets/images/coding.png"
-              loading="lazy"
             />
           </div>
         </div>
@@ -245,11 +239,9 @@
             autoplay
             muted
             loop
+            playsinline
+            src="./assets/videos/autumn-video-medium.mp4"
           >
-            <source
-              src="assets/videos/autumn-video-medium.mp4"
-              type="video/mp4"
-            />
             Your browser is not supported!
           </video>
         </div>
@@ -490,25 +482,25 @@
           </div>
         </div>
       </section>
-
-      <!-- FOOTER -->
-      <footer class="footer" id="contact" role="contentinfo">
-        <div class="footer__container container">
-          <a class="logo" href="#" aria-label="Back to top">
-            <img
-              class="logo__img"
-              alt="Priscilla Haibara Logo"
-              src="./assets/logos/logo.png"
-              loading="lazy"
-            />
-          </a>
-          <p class="footer__description">Made by Priscilla Haibara</p>
-          <address class="footer__description">
-            <a href="mailto:megumi.ufrn@gmail.com">megumi.ufrn@gmail.com</a>
-          </address>
-        </div>
-      </footer>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact" role="contentinfo">
+      <div class="footer__container container">
+        <a class="logo" href="#" aria-label="Back to top">
+          <img
+            class="logo__img"
+            alt="Priscilla Haibara Logo"
+            src="./assets/logos/logo.png"
+            loading="lazy"
+          />
+        </a>
+        <p class="footer__description">Made by Priscilla Haibara</p>
+        <address class="footer__description">
+          <a href="mailto:megumi.ufrn@gmail.com">megumi.ufrn@gmail.com</a>
+        </address>
+      </div>
+    </footer>
 
     <script type="module" src="./js/main.js"></script>
   </body>
