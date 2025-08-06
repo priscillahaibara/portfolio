@@ -1,13 +1,3 @@
-/* ====== CLASSES USED FOR ANIMATEX TEXT ====== */
-.animated-text {
-  min-height: clamp(4.5rem, 4vw, 4.7rem);
-  border-right: 2px solid #000;
-  white-space: nowrap;
-  overflow: hidden;
-  display: inline-block;
-  animation: blink-caret 0.75s step-end infinite;
-}
-
 /* ====== CLASSES USED WITH INTERSECTION OBSERVER (ANIMATED IMAGES) ====== */
 .hidden--right,
 .hidden--left {
@@ -23,16 +13,6 @@
 }
 
 /* ====== ANIMATION KEYFRAMES ====== */
-
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: black;
-  }
-}
 
 @keyframes animation--moveInRight {
   0% {
