@@ -72,6 +72,8 @@
 .feature__container-img {
   position: relative;
   overflow: hidden;
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
 }
 
 .feature__img {
