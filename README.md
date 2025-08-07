@@ -1,41 +1,43 @@
-# Personal Portfolio (In Progress)
+# 🌐 Personal Portfolio
 
-This is my personal portfolio website.  
-I am currently refactoring and simplifying the original version, which was built using HTML, Sass (SCSS), and vanilla JavaScript.
+This is my personal portfolio website.
+It was refactored and simplified from a previous version I had built using HTML, Sass (SCSS), and vanilla JavaScript.
+The current version was rebuilt with plain HTML, CSS, and JavaScript to create a cleaner, more maintainable and easier to read codebase.
 
-This ongoing version uses plain HTML, CSS, and JavaScript to make the codebase cleaner, easier to maintain, and more beginner-friendly.
+🔗 **Live Site**: [https://priscillahaibara.netlify.app/](https://priscillahaibara.netlify.app/)
 
-## 🎯 Purpose of the Refactor
+## ⚙️ Tech Stack
 
-- Remove the dependency on Sass and convert styles to plain CSS
-- Review and improve code structure and readability
-- Make the project more accessible for future improvements
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Git & GitHub
   
-## ✨ What I’m Improving
+## ✨ Improvements
 
-- Reorganizing the HTML structure
-- Rewriting SCSS styles in plain CSS
-- Optimizing the JavaScript logic
-- Asynchronous loading for images and videos
-- Improving responsiveness and accessibility
-- Writing clearer documentation
+- Reorganized the HTML structure  
+- Rewrote SCSS styles in plain CSS  
+- Optimized the JavaScript logic  
+- Improved responsiveness and accessibility  
+- Wrote clearer documentation
 
-## 🚧 Work in Progress
+## 🖥️ Demo Previews
 
-This project is still under development. I am pushing updates regularly as I clean up and rework different parts of the original codebase.
+### 💻 Desktop
 
-You can check out my commit history to see the step-by-step evolution of the code.
+<img src="assets/gif/animation-full.gif" alt="Desktop Demo" width="800" />
 
-## 🔗 Live Demo (coming soon)
+### 📱 Mobile
 
-I plan to deploy the final version on Netlify once the refactor is complete.
+<img src="assets/gif/animation-mobie.gif" alt="Mobile Demo" width="300" />
 
 ## 🧾 Original Version
 
 You can still view the original version in the [legacy](https://github.com/priscillahaibara/portfolio/tree/legacy) branch.  
 That version uses SCSS and follows a modular structure.
 
-## 🙋‍♀️ About Me
+## 📜 License
 
-I'm a developer focused on writing clean, maintainable code and learning continuously.  
-This portfolio is my space to grow and share that journey.
+This project is licensed under the MIT License.
+
+
