@@ -9,7 +9,9 @@
 .title--uppercase {
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  text-decoration: underline var(--color-primary-500) 3px;
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-primary-500);
+  text-decoration-thickness: 3px;
 }
 
 .border-top {

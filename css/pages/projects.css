@@ -23,7 +23,7 @@
 
 .projects__background-video {
   object-fit: cover;
-  filter: brightness(0.8);
+  filter: brightness(0.9);
   height: 100%;
   width: 100%;
   will-change: transform;
@@ -72,6 +72,8 @@
 .feature__container-img {
   position: relative;
   overflow: hidden;
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
 }
 
 .feature__img {
