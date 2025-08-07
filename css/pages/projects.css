@@ -23,7 +23,7 @@
 
 .projects__background-video {
   object-fit: cover;
-  filter: brightness(0.8);
+  filter: brightness(0.9);
   height: 100%;
   width: 100%;
   will-change: transform;
