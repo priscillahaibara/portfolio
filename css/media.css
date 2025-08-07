@@ -89,10 +89,6 @@
 
 @media (max-width: 36em) {
   /* Bellow 576px */
-  .hero__img {
-    width: 90%;
-  }
-
   .header__nav {
     position: absolute;
     top: 5.6rem;
@@ -140,6 +136,14 @@
     opacity: 1;
     pointer-events: auto;
     transform: rotate(90deg);
+  }
+
+  .hero__img {
+    width: 90%;
+  }
+
+  .hero__container {
+  row-gap: var(--space-md);
   }
 
   .skills__container {
