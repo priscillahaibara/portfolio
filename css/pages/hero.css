@@ -1,5 +1,4 @@
-/* ====== HERO ======  */
-
+/* ====== SECTION HERO ====== */
 .hero {
   padding-top: var(--space-2xl);
   padding-bottom: var(--space-2xl);
@@ -21,8 +20,6 @@
 
 .hero__content-title {
   margin-bottom: var(--space-3xs);
-  display: inline-block;
-  width: 40vh;
 }
 
 .hero__content-description {
@@ -41,10 +38,11 @@
 }
 
 .social-links__icon {
-  height:  4.4rem;
-  width:  4.4rem;
+  display: inline-block;
+  font-size: 4.8rem;
   color: var(--color-social-icons);
   transition: transform 0.3s;
+  cursor: pointer;
 }
 
 .social-links__icon:hover,
@@ -55,9 +53,9 @@
 
 .button--cta {
   display: inline-block;
+  padding: 1.6rem 2rem;
   background-color: var(--color-button-bg);
   color: var(--color-text-tertiary);
-  padding: 1.6rem 2rem;
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-semi-bold);
   text-align: center;
@@ -66,7 +64,7 @@
 }
 
 .button--cta:hover {
-  background-color: var();
+  background-color: var(--color-button-bg-hover);
 }
 
 .button--disabled[aria-disabled="true"] {

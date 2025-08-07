@@ -16,17 +16,19 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -10;
   height: 100%;
   width: 100%;
 }
 
 .projects__background-video {
   object-fit: cover;
-  opacity: 0.6;
+  filter: brightness(0.8);
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  will-change: transform;
+  transform: translateZ(0);
+  pointer-events: none;
 }
 
 .feature {
@@ -45,7 +47,6 @@
   transition: transform 0.3s;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
   border-radius: var(--radius-md);
-  overflow: hidden;
 }
 
 .feature__container:hover {
