@@ -144,7 +144,7 @@
 
   .hero__container {
   row-gap: var(--space-md);
-  }
+  } 
 
   .skills__container {
     grid-template-columns: 1fr;
